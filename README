@@ -11,10 +11,10 @@ pip install optimus-api
 
 ### Initial
 ```python
-import optimus.api
+import optimus
 
 ...
-api = optimus.api.Client('<your_license_key>')
+api = optimus.Api('<your_license_key>')
 
 ```
 

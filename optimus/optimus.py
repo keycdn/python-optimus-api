@@ -2,7 +2,7 @@ import requests
 
 
 # Python Client for Optimus API
-class Client:
+class Api:
 
     # constructor, takes licence key as param and endpoint as optional param
     def __init__(self, licence_key, endpoint='https://api.optimus.io'):
