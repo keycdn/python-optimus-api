@@ -4,17 +4,17 @@ Python integration for the lossless image optimization API
 ## Installation
 
 ``` bash
-pip install optimus
+pip install optimus-api
 ```
 
 ## Usage
 
 ### Initial
 ```python
-import optimus
+import optimus.api
 
 ...
-api = optimus.Api('<your_license_key>')
+api = optimus.api.Client('<your_license_key>')
 
 ```
 
