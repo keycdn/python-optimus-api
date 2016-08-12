@@ -12,5 +12,15 @@ def main():
         # and write the result to output
         output.write(result)
 
+    # Convert to WebP image format
+    with open('output.webp', 'wb') as output:
+        result = api.optimize('image.jpg', 'webp')
+        output.write(result)
+
+    # Compress and optimize your image, but keep the metadata
+    with open('output.jpg', 'wb') as output:
+        result = api.optimize('image.jpg', 'clean')
+        output.write(result)
+
 if __name__ == '__main__':
     main()
