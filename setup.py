@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(
-  name = 'optimus',
+  name = 'optimus-api',
   packages = ['optimus'],
   version = '0.1',
   description = 'A Python API client for the Optimus image optimization service',
