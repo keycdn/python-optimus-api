@@ -1,1 +1,1 @@
-from optimus import *
+from .optimus import *
