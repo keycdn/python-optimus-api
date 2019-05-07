@@ -1,14 +1,16 @@
+import setuptools
 from distutils.core import setup
+
 setup(
-  name='optimus-api',
-  packages=['optimus'],
-  version='0.4',
-  description='A Python API client for the Optimus image optimization service',
-  author='KeyCDN',
-  author_email='hello@keycdn.com',
-  url='https://github.com/keycdn/python-optimus-api',
-  download_url='https://github.com/keycdn/python-optimus-api/tarball/0.4',
-  keywords=[
+  name = 'optimus-api',
+  packages = ['optimus'],
+  version = '0.4.1',
+  description = 'A Python API client for the Optimus image optimization service',
+  long_description = open('README.md').read(),
+  long_description_content_type = 'text/markdown',
+  author = 'KeyCDN',
+  url = 'https://github.com/keycdn/python-optimus-api',
+  keywords = [
     'image compression',
     'image optimization',
     'image optimizer',
